@@ -61,8 +61,7 @@ Options:
   For example, `0.1` means each wallet can claim up to 0.1 ETH.
 
 - **reward**: (Optional) The amount to reward per NFT minted, in standard token units.
-  - Defaults to `0.000777` if not specified
-  - This covers 100% of the standard Sound.xyz mint cost
+  - If not specified, defaults to `0.000777` which covers 100% of the standard Sound.xyz mint cost
 
 ### Example Usage
 
