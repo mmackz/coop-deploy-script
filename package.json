@@ -18,7 +18,7 @@
     "typescript": "^5.3.0"
   },
   "dependencies": {
-    "@boostxyz/sdk": "5.1.1",
+    "@boostxyz/sdk": "5.2.0",
     "@boostxyz/signatures": "^1.2.0",
     "@dotenvx/dotenvx": "^1.29.0",
     "@wagmi/core": "^2.15.2",
