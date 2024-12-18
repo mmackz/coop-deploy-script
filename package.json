@@ -1,0 +1,28 @@
+{
+  "name": "coop-boost-deploy-script",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsup src/index.ts --format esm --sourcemap --watch --onSuccess \"node --enable-source-maps dist/index.js\"",
+    "build": "tsup src/index.ts --format esm --sourcemap",
+    "start": "node --enable-source-maps dist/index.js",
+    "deploy-boost": "tsup src/index.ts --format esm --sourcemap && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "@boostxyz/sdk": "5.1.1",
+    "@boostxyz/signatures": "^1.2.0",
+    "@dotenvx/dotenvx": "^1.29.0",
+    "@wagmi/core": "^2.15.2",
+    "commander": "^12.1.0",
+    "viem": "^2.21.54"
+  }
+}
