@@ -50,18 +50,18 @@ Options:
 - **collection**: The contract address of the Sound.xyz NFT collection you want to create incentives for.
 
 - **asset**: The token address that will be used as the reward. Must be an 18 decimal token:
-  - ETH: `0x0000000000000000000000000000000000000000`
   - WETH or other 18 decimal ERC20 tokens
   - Note: Tokens like USDC (6 decimals) are not compatible
 
 - **limit**: The total reward pool size in standard token units.
-  For example, `1.5` means 1.5 ETH total reward pool.
+  For example, `10000` means 10000 Tokens total reward pool.
 
 - **maxReward**: The maximum amount that any single wallet can claim, in standard token units.
-  For example, `0.1` means each wallet can claim up to 0.1 ETH.
+  For example, `420.69` means each wallet can claim up to 420.69 Tokens.
 
-- **reward**: (Optional) The amount to reward per NFT minted, in standard token units.
+- **reward**: (Optional) The ETH value of tokens to reward per NFT minted.
   - If not specified, defaults to `0.000777` which covers 100% of the standard Sound.xyz mint cost
+  - This value will be converted to the reward token at claim time. 
 
 ### Example Usage
 
