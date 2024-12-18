@@ -39,7 +39,7 @@ pnpm deploy-boost [options]
 
 Options:
   --collection, -c  The Sound.xyz collection contract address
-  --asset, -a       Token address to be used as reward (must be 18 decimals *no USDC)
+  --asset, -a       Token address to be used as reward (must be 18 decimals *no USDC*)
   --limit, -l       Total amount of tokens to distribute (in human readable format, e.g., "10000")
   --maxReward, -m   Maximum amount claimable per wallet (in human readable format, e.g., "420.69")
   --reward, -r      (Optional) Amount to reward per NFT mint (in human readable format, defaults to "0.000777")
