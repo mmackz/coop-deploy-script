@@ -1,4 +1,4 @@
-# Sound.xyz Mint Incentives
+# Deploy Sound.xyz Mint Incentives
 
 A CLI tool for creating Sound.xyz mint boosts using Boost v2 SDK.
 
