@@ -14,15 +14,15 @@ program
   .requiredOption("-a, --asset <address>", "Reward token address")
   .requiredOption(
     "-l, --limit <amount>",
-    "Total amount of tokens to distribute (in ETH)"
+    "Total amount of reward token to distribute"
   )
   .requiredOption(
     "-m, --max-reward <amount>",
-    "Maximum amount per wallet (in ETH)"
+    "Maximum amount of reward token per wallet"
   )
   .option(
     "-r, --reward <amount>",
-    "Reward per NFT minted (in ETH)",
+    "Reward per NFT minted (denominated in ETH)",
     "0.000777"
   );
 
