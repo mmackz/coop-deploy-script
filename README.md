@@ -84,8 +84,7 @@ pnpm deploy-boost \
 ```
 
 This example:
-- Creates an incentive for the specified Sound.xyz collection
-- Uses ETH as the reward token
+- Creates an incentive for the specified Sound.xyz collection and reward token address
 - Limits a total reward pool of 1000 tokens
 - Sets the max reward each wallet can claim to 100 tokens
 - Rewards 0.000777 ETH worth of tokens per NFT minted
