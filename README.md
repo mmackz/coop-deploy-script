@@ -4,7 +4,7 @@ A CLI tool for creating Sound.xyz mint boosts using Boost v2 SDK.
 
 ## Installation
 
-- Node.js v18+
+- Node.js version 18.x - 20.x
 - pnpm
 
 ## Setup
