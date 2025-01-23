@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@boostxyz/sdk':
-        specifier: 5.2.0
-        version: 5.2.0(@wagmi/core@2.15.2(typescript@5.7.2)(viem@2.21.54(typescript@5.7.2)))(abitype@1.0.7(typescript@5.7.2))(viem@2.21.54(typescript@5.7.2))
+        specifier: 5.5.0
+        version: 5.5.0(@wagmi/core@2.15.2(typescript@5.7.2)(viem@2.21.54(typescript@5.7.2)))(abitype@1.0.7(typescript@5.7.2))(viem@2.21.54(typescript@5.7.2))
       '@boostxyz/signatures':
         specifier: ^1.2.0
         version: 1.2.0
@@ -42,8 +42,8 @@ packages:
   '@adraffy/ens-normalize@1.11.0':
     resolution: {integrity: sha512-/3DDPKHqqIqxUULp8yP4zODUY1i+2xvVWsv8A79xGWdCAG+8sb0hRh0Rk2QyOJUnnbyPUAZYcpBuRe3nS2OIUg==}
 
-  '@boostxyz/sdk@5.2.0':
-    resolution: {integrity: sha512-3JXg0Bba6bmIwPZOHPZX0/MPLCnLrlJxvnuLU5w07XV97QKV7dSy5BQrETiesmvDBUG30QlZwqEtLNc06lIjpg==}
+  '@boostxyz/sdk@5.5.0':
+    resolution: {integrity: sha512-EEAbHy1IQ0XPfM/2YZmVHv4by5ce8Y7qa5aeWvc2t5PDTCu7DfM4uq1PQgQRKYrwGydJj7RUcneLDU7t1qp4zQ==}
     peerDependencies:
       '@wagmi/core': 2.x
       abitype: '1'
@@ -839,7 +839,7 @@ snapshots:
 
   '@adraffy/ens-normalize@1.11.0': {}
 
-  '@boostxyz/sdk@5.2.0(@wagmi/core@2.15.2(typescript@5.7.2)(viem@2.21.54(typescript@5.7.2)))(abitype@1.0.7(typescript@5.7.2))(viem@2.21.54(typescript@5.7.2))':
+  '@boostxyz/sdk@5.5.0(@wagmi/core@2.15.2(typescript@5.7.2)(viem@2.21.54(typescript@5.7.2)))(abitype@1.0.7(typescript@5.7.2))(viem@2.21.54(typescript@5.7.2))':
     dependencies:
       '@wagmi/core': 2.15.2(typescript@5.7.2)(viem@2.21.54(typescript@5.7.2))
       abitype: 1.0.7(typescript@5.7.2)
