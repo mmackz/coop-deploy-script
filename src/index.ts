@@ -1,6 +1,6 @@
 import { Command } from "commander";
 import { Address, parseEther } from "viem";
-import { createSoundMintPayload } from "./actions/sound-mint";
+import { createSoundMintPayload } from "./actions/sound-mint-tuple";
 import { createSoundMintCoopIncentive } from "./incentives/sound-mint-coop";
 import { core } from "./config";
 import { deployBoost } from "./deploy";
